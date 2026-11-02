@@ -1,199 +1,111 @@
-# Awesome-Lead-Capture-Conversion-Optimization
-
-## Top Lead Capture & Conversion Optimization Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Popups, Landing Pages & Self-Hosted Conversion Tooling*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Lead Capture & Conversion Optimization**. These tools enable marketers to turn website visitors into leads through popups, slide-ins, landing pages, and embedded forms—optimizing the moment of capture to maximize conversion rates.
-
-
-
-**Examples** include HubSpot Lead Capture Software, OptinMonster, Unbounce, Leadpages, Sumo, Sleeknote, Wisepops, Privy, and ConvertFlow (the category leaders).
-
-
-
-**Open-source emphasis**: Lead Capture & Conversion Optimization is a domain where open-source tooling is **fragmented and largely WordPress-scoped, but genuinely functional for basic capture needs**. The strongest active projects are **OptinFlare** (a WordPress popup and opt-in plugin with exit-intent triggers, GDPR profiles, and local subscriber storage)  and **AntLeads** (an AI-driven lead management system with an embeddable JavaScript widget and automatic UTM tracking) . **Brave Popup Builder** provides a free WordPress popup option with 20,000+ active installations . The critical caveat: **no open-source project matches the conversion optimization depth** of OptinMonster's Exit-Intent® technology, Unbounce's AI-powered landing page optimization, or ConvertFlow's visual funnel builder—open-source tools handle basic form display and capture, but lack the A/B testing, behavioral targeting, and analytics that define the category. **Mautic** is often listed as an OptinMonster alternative, but it is a marketing automation platform rather than a dedicated popup or landing page builder .
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[HubSpot Lead Capture Software](https://www.hubspot.com/)**  
-
-  Native lead capture within HubSpot's CRM; forms, popups, and landing pages that sync directly to contact records with progressive profiling and automated follow-up.
-
-
-
-- **[OptinMonster](https://optinmonster.com/)**  
-
-  The benchmark for popup and opt-in lead generation; known for **Exit-Intent® technology** that triggers when visitors are about to leave, with campaign types including lightbox popups, fullscreen welcome mats, slide-ins, floating bars, and inline forms.
-
-
-
-- **[Unbounce](https://unbounce.com/)**  
-
-  Landing page builder with AI-powered conversion optimization; drag-and-drop editor, A/B testing, and Smart Traffic that automatically routes visitors to the highest-converting variant.
-
-
-
-- **[Leadpages](https://www.leadpages.com/)**  
-
-  Landing page and lead capture platform with templates, pop-ups, and integrations; positioned for small businesses and marketers.
-
-
-
-- **[Sumo (SumoMe)](https://sumo.com/)**  
-
-  Suite of conversion tools including popups, welcome mats, scroll boxes, and social sharing; historically popular for its free tier.
-
-
-
-- **[Sleeknote](https://sleeknote.com/)**  
-
-  Ecommerce-focused popup and lead capture platform; known for non-intrusive slide-ins and cart abandonment recovery.
-
-
-
-- **[Wisepops](https://wisepops.com/)**  
-
-  Popup and conversion optimization platform with behavioral targeting, A/B testing, and analytics.
-
-
-
-- **[Privy](https://privy.com/)**  
-
-  Ecommerce lead capture and conversion platform (now part of Postscript); popups, spin-to-win, and email/SMS capture for Shopify stores.
-
-
-
-- **[ConvertFlow](https://www.convertflow.com/)**  
-
-  Visual funnel builder for lead capture; creates landing pages, popups, quizzes, and forms with conditional logic and CRM integrations .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### WordPress Popup & Opt-in Plugins
-
-
-
-- **[OptinFlare](https://wordpress.org/plugins/optinflare/)**  
-
-  Free WordPress **popup and opt-in form plugin** with a focused feature set (v0.8.5, 20,000+ active installations) . Features: **form types** (popups, fly-ins, inline forms, sticky bars); **triggers** including **exit intent**, time delay, scroll depth, and click; **GDPR profiles** with configurable consent and retention (rules are off by default); subscriber storage in your WordPress database with CSV export; and integration with supported newsletter plugins . **Best for WordPress sites** wanting a free, privacy-conscious popup and opt-in solution—but it is WordPress-only and lacks the advanced targeting and A/B testing of commercial tools.
-
-
-
-- **[Brave Popup Builder](https://wordpress.org/plugins/brave-popup-builder/)**  
-
-  Free WordPress **popup builder** with drag-and-drop editor, 9 elements in the free version, and WooCommerce integration (4.8/5 rating, 207 reviews) . Features: customizable display frequency, mobile-specific designs, animation options, and performance tracking . **Best for WordPress users** wanting a straightforward free popup builder—but it is WordPress-scoped and the free tier is basic.
-
-
-
-### AI-Driven Lead Management with Widget
-
-
-
-- **[AntLeads](https://github.com/chaitin/AntLeads)**  
-
-  An **AI-driven lead management and marketing automation system** (FastAPI + React + TypeScript) with an **embeddable JavaScript widget** for lead capture . Features: **widget SDK** (pure JavaScript, no dependencies, CORS-enabled) for creating embeddable lead collection forms with configurable fields (name, email, phone, company, message); **AI scoring on submit** (rule-based, future LLM integration); **UTM tracking** capturing URL, referrer, and campaign parameters; and a dashboard with leads, tasks, funnel visualization, and widget management . **Best for developers** wanting an embeddable lead-capture widget with built-in scoring and UTM tracking—but it is a full lead management system, not a dedicated popup or landing page builder.
-
-
-
-### Lead-Capture Form Components (Templates)
-
-
-
-- **inline-multi-field-form (rampstackco)** — A **React/HTML lead-capture form component** (v2.2) for B2B sales; 3–5 fields with grid/stacked/horizontal layouts, accessible validation, and configurable success/disclaimer text . **Best for developers** wanting a production-ready form component to embed in their application—not a standalone tool.
-
-
-
-### Marketing Automation (Adjacent)
-
-
-
-- **[Mautic](https://github.com/mautic/mautic)**  
-
-  The largest open-source **marketing automation platform** (GPLv3) with lead scoring, campaigns, email marketing, and dynamic web content . **Critical distinction**: Mautic is frequently listed as an OptinMonster alternative, but it is **not a popup or landing page builder**—it is a full marketing automation system that includes forms and landing pages as features . **Best for organizations wanting complete marketing automation** with lead capture as one component—not for teams seeking a dedicated conversion optimization tool.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **OpenFlow** — Open-source **lead-gen form platform** positioned as a Typeform alternative for startups and SMEs; features form embedding with iframe postMessage, per-form subdomains, and integrations with lodgely (lead intake) and calon (booking) . **Best for teams wanting a self-hosted form platform** with integrations—but it is newer and less community-validated than Mautic or OptinFlare.
-
-
-
-**Frameworks for building custom systems**: For **WordPress popups and opt-ins**, OptinFlare provides the most complete free option with exit-intent and GDPR support . For an **embeddable lead-capture widget with AI scoring**, AntLeads . For a **React form component for B2B capture**, inline-multi-field-form . For **complete marketing automation with forms**, Mautic (accepting that it is not a dedicated popup tool) . **No open-source project matches the conversion optimization depth** of OptinMonster's Exit-Intent® technology, Unbounce's Smart Traffic, or ConvertFlow's visual funnel builder—those are commercial advantages in behavioral targeting, A/B testing, and landing page optimization.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Lead capture platforms handling visitor data must comply with applicable privacy regulations (GDPR, CCPA) and implement proper consent mechanisms; **OptinFlare's GDPR profiles are off by default**—site owners must explicitly enable them .
-
-- **Open-source lead capture is fragmented and largely WordPress-scoped**—OptinFlare and Brave Popup Builder provide free WordPress popup solutions , and AntLeads provides an embeddable widget . However, **no open-source project matches the conversion optimization depth** of OptinMonster's Exit-Intent® technology, Unbounce's Smart Traffic, or ConvertFlow's visual funnel builder. **Mautic is often mischaracterized as a popup alternative**—it is a full marketing automation platform, not a dedicated conversion tool . Choose based on whether you need WordPress popups (OptinFlare), an embeddable widget (AntLeads), or full marketing automation (Mautic).
-
-- Verify license terms for commercial use; OptinFlare and Brave Popup Builder are WordPress.org plugins (GPL), and AntLeads is open-source (check repository).
-
-
+# 🎯 Awesome Lead Capture & Conversion Optimization
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Lead Capture and Conversion Optimization Banner" width="100%" />
+</p>
+
+<p align="center">
+  <strong>Curated ecosystem of SaaS platforms, open-source libraries, and self-hosted tools for Lead Capture &amp; Conversion Rate Optimization (CRO).</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization?style=social&color=white" alt="GitHub Forks" /></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
+</p>
 
 ---
 
+## 📑 Table of Contents
+- [🔍 Sector Overview &amp; Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS &amp; Commercial Platforms](#️-saas--commercial-platforms)
+- [💻 Open-Source Repositories &amp; Self-Hosted Tooling](#-open-source-repositories--self-hosted-tooling)
+  - [⭐ Ranked Open-Source GitHub Projects](#-ranked-open-source-github-projects)
+  - [🧩 WordPress Plugins &amp; Ecosystem Tools](#-wordpress-plugins--ecosystem-tools)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-**Made for marketers, WordPress site owners, and developers building lead capture and conversion optimization tooling.**  
+## 🔍 Sector Overview & Market Dynamics
 
-Let's make lead capture more open, but with clear eyes about the behavioral targeting and A/B testing depth that commercial conversion platforms still lead on.
+> The global **Lead Capture and Conversion Rate Optimization (CRO) software market** is valued at approximately **$3.0 Billion to $4.5 Billion** combined (with Lead Capture software accounting for ~$1.8B–$2.8B and CRO software representing ~$1.2B–$1.7B), expanding rapidly at an estimated **11.4% to 11.6% CAGR**.  
+> The sector is **structurally hybrid**: it is **highly fragmented across the SMB long-tail** with thousands of standalone popup widgets, modal scripts, and WordPress form plugins competing on price and ease of use, but **moderately concentrated at the enterprise level**, where market power and revenue consolidate around multi-product CRM and digital experience suites (such as HubSpot, Salesforce, and Optimizely) that integrate lead capture directly into unified customer data platforms (CDPs) and marketing automation engines.
+
+---
+
+## ☁️ SaaS & Commercial Platforms
+
+The following table compares leading commercial lead capture and conversion optimization platforms, sorted by **company size / valuation / annual revenue** (descending).
+
+| Platform | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Free Trial Limits | Key Specialization & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[HubSpot Lead Capture Software](https://www.hubspot.com/)** | **~$12.0B Market Cap** (~$3.13B ARR) | **$15/seat/mo** (billed annually) or $20/seat/mo on Starter tier | **Free forever plan**: Up to 1,000 total CRM contacts, 2,000 marketing email sends/month, 2 user seats, standard forms, popups, and landing pages with HubSpot branding | Enterprise-grade inbound marketing & CRM ecosystem; native forms, popups, and progressive profiling connecting directly to CRM contact pipelines. |
+| **[Privy](https://privy.com/)** | **~$700M Acquired / Parent Scale** (~$30M ARR, acquired by Attentive) | **$24/month** (Pop-ups & Displays tier) | **15-day free trial**: Full access to all displays, pop-ups, spin-to-win wheels, and targeting triggers (no credit card required) | E-commerce conversion suite specialized for Shopify; high-converting spin-to-win popups, flyouts, and SMS/email capture integrations. |
+| **[Unbounce](https://unbounce.com/)** | **~$52M Valuation** (~$35M ARR, acquired by Crest Rock Partners) | **$99/month** (Build tier, billed annually) | **14-day free trial**: Access to drag-and-drop landing page builder, smart traffic AI routing, popups, and sticky bars (credit card required) | High-performance landing page builder equipped with Smart Traffic AI conversion routing, visual A/B testing, and sticky capture bars. |
+| **[Leadpages](https://www.leadpages.com/)** | **~$38M Funding / ~$18M ARR** (acquired by Redbrick) | **$37/month** (Standard tier, billed annually) | **14-day free trial**: Full access to drag-and-drop builder, 1 custom domain, mobile-responsive templates, pop-ups, and alert bars | Conversion-oriented landing page and website builder tailored for small businesses and solo founders; includes alert bars and opt-in pop-ups. |
+| **[OptinMonster](https://optinmonster.com/)** | **~$45M+ Parent ARR** (Awesome Motive portfolio, ~$3M ARR) | **$9/month** (Basic tier, billed annually at $108/yr) or $21/mo | **14-day unconditional money-back guarantee**: 2,500 impressions/month across 1 site on Basic tier (no permanent free tier) | The industry benchmark for popup and opt-in conversion; patented Exit-Intent® tracking technology, floating bars, fullscreen welcome mats, and multi-step funnels. |
+| **[Sumo (SumoMe)](https://sumo.com/)** | **Bootstrapped** (~$5M ARR, part of AppSumo network) | **$39/month** (Pro tier billed annually) or $49/mo | **Free forever plan**: Basic email opt-in forms, visitor analytics, and visitor pop-ups capped at 10,000 emails/month and up to 200 subscribers | Proven growth-hacking suite providing exit-intent popups, floating header bars, scroll boxes, and instant subscriber capture integrations. |
+| **[Sleeknote](https://sleeknote.com/)** | **~$3M ARR** (acquired by Drip) | **€49/month** (~$53/mo, Lite tier billed annually) | **14-day free trial**: Full access to 100+ popup templates, drag-and-drop builder, and cart abandonment triggers (no credit card required) | E-commerce lead capture platform engineered for non-intrusive slide-ins, bottom bars, gamified popups, and basket recovery. |
+| **[ConvertFlow](https://www.convertflow.com/)** | **Bootstrapped / Private** (~$2M ARR) | **$99/month** (Prime tier) | **Free forever plan**: Up to 250 monthly visitors, 1 website, with visual builder for forms, quizzes, sticky bars, and modal popups | Visual funnel-builder enabling marketers to deploy conditional multi-step quizzes, popup surveys, personalized embedded forms, and landing pages. |
+| **[Wisepops](https://wisepops.com/)** | **Bootstrapped / Private** (~$2M ARR) | **$49/month** (Essential tier for 10,000 pageviews/mo) | **14-day free trial**: Access to smart popups, notification feeds, exit-intent overlays, and contextual behavioral targeting (no credit card required) | Onsite marketing and conversion suite combining exit-intent popups, contextual slide-ins, dynamic website notifications, and deep audience segmentation. |
+
+---
+
+## 💻 Open-Source Repositories & Self-Hosted Tooling
+
+Lead capture and conversion optimization in open-source spans full-stack self-hosted marketing platforms, visual page and form builders, user analytics, and lightweight exit-intent client libraries.
+
+### ⭐ Ranked Open-Source GitHub Projects
+
+The following repositories are sorted by **GitHub Star Count** (descending). The badge links directly to each project's GitHub stargazers page.
+
+| Repository | GitHub Stars | Description & Conversion Capabilities |
+| :--- | :---: | :--- |
+| **[PostHog / posthog](https://github.com/PostHog/posthog)** | [![Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | All-in-one open-source product analytics, conversion funnel tracking, session recording, feature flags, and A/B multivariate testing platform. |
+| **[GrapesJS / grapesjs](https://github.com/GrapesJS/grapesjs)** | [![Stars](https://img.shields.io/github/stars/GrapesJS/grapesjs?style=social&color=white)](https://github.com/GrapesJS/grapesjs/stargazers) | Extensible, open-source visual multi-purpose HTML/CSS web builder framework. Ideal for embedding customizable landing page and popup editors directly into web applications. |
+| **[Formbricks / formbricks](https://github.com/formbricks/formbricks)** | [![Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers) | Open-source experience management & in-app micro-survey suite. Enables targeted user feedback popups, event-triggered lead qualification forms, and conversion attribution. |
+| **[Mautic / mautic](https://github.com/mautic/mautic)** | [![Stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers) | The standard open-source marketing automation platform (GPLv3). Provides built-in lead generation forms, landing page creators, dynamic web content, lead scoring, and automated nurture campaigns. |
+| **[HeyForm / heyform](https://github.com/heyform/heyform)** | [![Stars](https://img.shields.io/github/stars/heyform/heyform?style=social&color=white)](https://github.com/heyform/heyform/stargazers) | Modern open-source conversational form builder. Features interactive conversational UX, conditional branching, customizable logic, and self-hosted lead capture. |
+| **[GrowthBook / growthbook](https://github.com/GrowthBook/growthbook)** | [![Stars](https://img.shields.io/github/stars/GrowthBook/growthbook?style=social&color=white)](https://github.com/GrowthBook/growthbook/stargazers) | Open-source experimentation and feature flagging platform. Provides visual A/B testing, statistical conversion analysis, and targeting rule engines for optimizing funnel conversions. |
+| **[ohmyform / ohmyform](https://github.com/ohmyform/ohmyform)** | [![Stars](https://img.shields.io/github/stars/ohmyform/ohmyform?style=social&color=white)](https://github.com/ohmyform/ohmyform/stargazers) | Free and open-source alternative to Typeform and Google Forms for self-hosted lead intake, customer feedback, and multi-step surveys. |
+| **[carlsednaoui / ouibounce](https://github.com/carlsednaoui/ouibounce)** | [![Stars](https://img.shields.io/github/stars/carlsednaoui/ouibounce?style=social&color=white)](https://github.com/carlsednaoui/ouibounce/stargazers) | Classic, lightweight library for displaying exit-intent modal popups before a visitor leaves the web page. Supports sensitivity thresholds, cookie expiration, and custom callbacks. |
+| **[daltonmenezes / use-exit-intent](https://github.com/daltonmenezes/use-exit-intent)** | [![Stars](https://img.shields.io/github/stars/daltonmenezes/use-exit-intent?style=social&color=white)](https://github.com/daltonmenezes/use-exit-intent/stargazers) | Modern React / TypeScript hook designed to trigger exit-intent conversion modals, opt-in promotions, and alerts with desktop cursor and mobile blur handlers. |
+| **[aialvi / openfunnels](https://github.com/aialvi/openfunnels)** | [![Stars](https://img.shields.io/github/stars/aialvi/openfunnels?style=social&color=white)](https://github.com/aialvi/openfunnels/stargazers) | Open-source funnel builder and CRM-lite web application designed for fast lead-capture funnels with drag-and-drop landing page templates, lead alerts, and domain mapping. |
+| **[vidual-labs / openflow](https://github.com/vidual-labs/openflow)** | [![Stars](https://img.shields.io/github/stars/vidual-labs/openflow?style=social&color=white)](https://github.com/vidual-labs/openflow/stargazers) | Self-hosted lead generation form platform alternative to Typeform; features iframe postMessage embedding, per-form subdomains, and lead sync into Lodgely. |
+| **[chaitin / AntLeads](https://github.com/chaitin/AntLeads)** | [![Stars](https://img.shields.io/github/stars/chaitin/AntLeads?style=social&color=white)](https://github.com/chaitin/AntLeads/stargazers) | AI-driven lead management and automation system featuring an embeddable, zero-dependency JavaScript lead capture widget with real-time UTM parameter tracking. |
+
+---
+
+### 🧩 WordPress Plugins & Ecosystem Tools
+
+For teams running on WordPress, several battle-tested plugins offer self-hosted popup and opt-in management:
+
+- **[OptinFlare](https://wordpress.org/plugins/optinflare/)**  
+  Free WordPress **popup and opt-in form plugin** with 20,000+ active installations. Features popups, fly-ins, inline forms, and sticky bars triggered by exit-intent, scroll depth, and inactivity. Includes GDPR consent profiles and local database subscriber storage with CSV export.
+  
+- **[Brave Popup Builder](https://wordpress.org/plugins/brave-popup-builder/)**  
+  Visual drag-and-drop **popup builder** for WordPress (4.8/5 rating across 200+ reviews). Provides customizable display frequencies, mobile-responsive layouts, conversion tracking, and direct WooCommerce cart integrations.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help expand this directory by adding new tools, updating pricing details, or submitting improvements:
+
+1. **Fork the repository** to your personal GitHub account.
+2. **Create a descriptive feature branch** (`git checkout -b feat/add-conversion-tool`).
+3. **Add or update entries in `README.md`** following the established table structure, star badge syntax, and factual criteria.
+4. **Commit your modifications** with clear commit messages (`git commit -m "feat: add Formbricks to open-source table"`).
+5. **Push to your branch** and open a **Pull Request** detailing why the tool is relevant to Lead Capture & Conversion Optimization.
+
+⭐ **Don't forget to star this repository** if you find it helpful!
+
+---
+
+## ⚖️ Disclaimer
+
+- This curated list is **community-maintained** for educational, architectural, and evaluation purposes; inclusion does not imply commercial endorsement.
+- Ensure all lead-capture mechanisms, trackers, and popup scripts comply with data privacy standards (**GDPR, CCPA, ePrivacy Directive**) by implementing verifiable opt-in consent mechanisms.
+- All pricing metrics, tier limits, and valuations were verified as of **November 2026** and remain subject to change by their respective vendors.

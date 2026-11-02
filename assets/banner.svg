@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#090d16; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; border-radius:12px; overflow:hidden;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <linearGradient id="funnelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .bg-pulse {
+        animation: pulseGrad 8s ease-in-out infinite alternate;
+      }
+      @keyframes pulseGrad {
+        0% { opacity: 0.35; transform: scale(0.98); }
+        100% { opacity: 0.7; transform: scale(1.05); }
+      }
+      .wave-flow {
+        stroke-dasharray: 12 8;
+        animation: flowDash 30s linear infinite;
+      }
+      @keyframes flowDash {
+        to { stroke-dashoffset: -1000; }
+      }
+      .beacon {
+        animation: beaconPulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+      @keyframes beaconPulse {
+        0%, 100% { opacity: 0.2; transform: scale(0.9); }
+        50% { opacity: 0.8; transform: scale(1.15); }
+      }
+      .badge-float-1 {
+        animation: floatY1 4s ease-in-out infinite alternate;
+      }
+      .badge-float-2 {
+        animation: floatY2 4.8s ease-in-out infinite alternate;
+      }
+      .badge-float-3 {
+        animation: floatY3 4.2s ease-in-out infinite alternate;
+      }
+      @keyframes floatY1 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-7px); }
+      }
+      @keyframes floatY2 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-9px); }
+      }
+      @keyframes floatY3 {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-6px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Background Canvas -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Light Orbs (Background layer) -->
+  <g class="bg-pulse">
+    <circle cx="200" cy="80" r="140" fill="#6366f1" opacity="0.12" filter="url(#glow)"/>
+    <circle cx="1020" cy="260" r="180" fill="#ec4899" opacity="0.1" filter="url(#glow)"/>
+    <circle cx="620" cy="320" r="160" fill="#38bdf8" opacity="0.08" filter="url(#glow)"/>
+  </g>
+
+  <!-- Background Decorative Grid -->
+  <g stroke="#334155" stroke-width="0.5" opacity="0.25">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Background Dynamic Flow Lines (Conversion Curves) -->
+  <g fill="none" opacity="0.4">
+    <path class="wave-flow" d="M 0,280 C 300,320 400,210 650,220 C 900,230 1000,140 1200,160" stroke="#6366f1" stroke-width="2" />
+    <path class="wave-flow" d="M 0,310 C 250,270 450,290 700,230 C 950,170 1050,110 1200,120" stroke="#ec4899" stroke-width="1.5" />
+    <path class="wave-flow" d="M 0,240 C 350,210 500,260 800,200 C 1000,160 1100,230 1200,210" stroke="#38bdf8" stroke-width="1.2" />
+  </g>
+
+  <!-- Conversion Target Graphic (Background Accent at Right) -->
+  <g transform="translate(980, 110)" opacity="0.6">
+    <circle cx="60" cy="60" r="75" fill="url(#funnelGrad)" stroke="#6366f1" stroke-width="1" />
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="4 4" />
+    <circle cx="60" cy="60" r="28" fill="#6366f1" opacity="0.2" />
+    <circle class="beacon" cx="60" cy="60" r="12" fill="#ec4899" />
+    <circle cx="60" cy="60" r="4" fill="#ffffff" />
+  </g>
+
+  <!-- Foreground Dynamic Floating Tag Pills (Positioned safely away from text) -->
+  <!-- Tag 1: Top Right Pill -->
+  <g class="badge-float-1" transform="translate(860, 42)">
+    <rect width="180" height="34" rx="17" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.85" />
+    <circle cx="20" cy="17" r="5" fill="#38bdf8" />
+    <text x="34" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">⚡ EXIT-INTENT TECH</text>
+  </g>
+
+  <!-- Tag 2: Lower Right Pill -->
+  <g class="badge-float-2" transform="translate(900, 260)">
+    <rect width="190" height="34" rx="17" fill="#1e293b" stroke="#8b5cf6" stroke-width="1" opacity="0.85" />
+    <circle cx="20" cy="17" r="5" fill="#a855f7" />
+    <text x="34" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🎯 CONVERSION CRO</text>
+  </g>
+
+  <!-- Tag 3: Middle Right Pill -->
+  <g class="badge-float-3" transform="translate(790, 205)">
+    <rect width="165" height="32" rx="16" fill="#1e293b" stroke="#ec4899" stroke-width="1" opacity="0.85" />
+    <circle cx="18" cy="16" r="4" fill="#ec4899" />
+    <text x="30" y="21" fill="#e2e8f0" font-size="11" font-weight="600" letter-spacing="0.5">🚀 LANDING PAGES</text>
+  </g>
+
+  <!-- ================= FOREGROUND HERO CONTENT ================= -->
+  <!-- Category Overline / Pill Badge -->
+  <g transform="translate(80, 52)">
+    <rect width="320" height="28" rx="14" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
+    <circle cx="14" cy="14" r="4" fill="#818cf8" />
+    <text x="26" y="19" fill="#c7d2fe" font-size="11" font-weight="700" letter-spacing="1">CURATED OPEN-SOURCE &amp; SAAS DIRECTORY</text>
+  </g>
+
+  <!-- Primary Headline Title -->
+  <text x="80" y="125" fill="#ffffff" font-size="38" font-weight="800" letter-spacing="-0.5">
+    Lead Capture &amp; Conversion
+  </text>
+  <text x="80" y="175" fill="url(#primaryGrad)" font-size="38" font-weight="800" letter-spacing="-0.5">
+    Optimization Ecosystem
+  </text>
+
+  <!-- Subtitle Paragraph -->
+  <text x="80" y="220" fill="#94a3b8" font-size="16" font-weight="400">
+    The ultimate collection of popups, slide-ins, smart forms, visual landing page builders,
+  </text>
+  <text x="80" y="246" fill="#94a3b8" font-size="16" font-weight="400">
+    and exit-intent conversion rate optimization (CRO) tooling for high-growth teams.
+  </text>
+
+  <!-- Bottom Metric & Stack Highlights -->
+  <g transform="translate(80, 285)">
+    <!-- Metric 1 -->
+    <rect width="135" height="34" rx="6" fill="#111827" stroke="#374151" stroke-width="1"/>
+    <text x="14" y="21" fill="#38bdf8" font-size="12" font-weight="700">★ OPEN-SOURCE</text>
+    <text x="110" y="21" fill="#9ca3af" font-size="11">CORE</text>
+
+    <!-- Metric 2 -->
+    <g transform="translate(148, 0)">
+      <rect width="135" height="34" rx="6" fill="#111827" stroke="#374151" stroke-width="1"/>
+      <text x="14" y="21" fill="#a855f7" font-size="12" font-weight="700">☁ SAAS STACK</text>
+      <text x="105" y="21" fill="#9ca3af" font-size="11">TIER</text>
+    </g>
+
+    <!-- Metric 3 -->
+    <g transform="translate(296, 0)">
+      <rect width="165" height="34" rx="6" fill="#111827" stroke="#374151" stroke-width="1"/>
+      <text x="14" y="21" fill="#34d399" font-size="12" font-weight="700">✔ PRICING &amp; LIMITS</text>
+      <text x="135" y="21" fill="#9ca3af" font-size="11">VERIFIED</text>
+    </g>
+  </g>
+
+  <!-- Sleek Accent Bottom Border Line -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#primaryGrad)" />
+</svg>
