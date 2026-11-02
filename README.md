@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization?style=social&color=white" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
@@ -64,9 +64,9 @@ Lead capture and conversion optimization in open-source spans full-stack self-ho
 
 ### ⭐ Ranked Open-Source GitHub Projects
 
-The following repositories are sorted by **GitHub Star Count** (descending). The badge links directly to each project's GitHub stargazers page.
+The following repositories are sorted by **GitHub Stars_Count** (descending). The badge links directly to each project's GitHub stargazers page.
 
-| Repository | GitHub Stars | Description & Conversion Capabilities |
+| Repository | GitHub_Stars | Description & Conversion Capabilities |
 | :--- | :---: | :--- |
 | **[PostHog / posthog](https://github.com/PostHog/posthog)** | [![Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | All-in-one open-source product analytics, conversion funnel tracking, session recording, feature flags, and A/B multivariate testing platform. |
 | **[GrapesJS / grapesjs](https://github.com/GrapesJS/grapesjs)** | [![Stars](https://img.shields.io/github/stars/GrapesJS/grapesjs?style=social&color=white)](https://github.com/GrapesJS/grapesjs/stargazers) | Extensible, open-source visual multi-purpose HTML/CSS web builder framework. Ideal for embedding customizable landing page and popup editors directly into web applications. |
@@ -101,7 +101,7 @@ Contributions are warmly welcomed! Help expand this directory by adding new tool
 
 1. **Fork the repository** to your personal GitHub account.
 2. **Create a descriptive feature branch** (`git checkout -b feat/add-conversion-tool`).
-3. **Add or update entries in `README.md`** following the established table structure, star badge syntax, and factual criteria.
+3. **Add or update entries in `README.md`** following the established table structure, Stars_Badge syntax, and factual criteria.
 4. **Commit your modifications** with clear commit messages (`git commit -m "feat: add Formbricks to open-source table"`).
 5. **Push to your branch** and open a **Pull Request** detailing why the tool is relevant to Lead Capture & Conversion Optimization.
 
