@@ -9,10 +9,13 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization?style=social&color=white" alt="GitHub Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization?style=social&color=white" alt="GitHub Forks" /></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -24,6 +27,8 @@
   - [⭐ Ranked Open-Source GitHub Projects](#-ranked-open-source-github-projects)
   - [🧩 WordPress Plugins &amp; Ecosystem Tools](#-wordpress-plugins--ecosystem-tools)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support &amp; Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 - [⚖️ Disclaimer](#️-disclaimer)
 
 ---
@@ -101,6 +106,26 @@ Contributions are warmly welcomed! Help expand this directory by adding new tool
 5. **Push to your branch** and open a **Pull Request** detailing why the tool is relevant to Lead Capture & Conversion Optimization.
 
 ⭐ **Don't forget to star this repository** if you find it helpful!
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring this curated repository! Maintaining and updating high-quality developer and marketing ecosystems requires continuous community care.
+
+If you find this project valuable for your business, agency, or open-source journey, please consider supporting us:
+- ⭐ **Star this repository** to improve its visibility across GitHub.
+- 🍴 **Fork the repo** to keep a local reference or build custom tool evaluations.
+- 📢 **Share it** with friends, colleagues, and marketing tech enthusiasts on Twitter, LinkedIn, and developer forums.
+- ☕ **Buy us a coffee / become a sponsor**: Support ongoing research and maintenance directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Every bit of encouragement and sponsorship keeps this ecosystem thriving!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Lead-Capture-Conversion-Optimization&type=date&legend=top-left)
 
 ---
 
